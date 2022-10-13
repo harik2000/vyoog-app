@@ -35,6 +35,7 @@ function App() {
     userHasAuthenticated(false);
   }
 
+  
   return (
     !isAuthenticating &&
     <div className="App container">
